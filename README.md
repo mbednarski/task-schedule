@@ -1,4 +1,4 @@
-Task Schedule
+# Task Schedule
 
 Assignment for Combinatory Optimization course.
 
