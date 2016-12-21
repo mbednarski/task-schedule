@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskSchedule.Algo", "src\TaskSchedule.Algo\TaskSchedule.Algo.csproj", "{2EFD58D8-2217-4276-9D57-ECA1E34D7B05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{00869399-31A6-4913-AF61-396DAC865E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskSchedule.Algo.Test", "test\TaskSchedule.Algo.Test\TaskSchedule.Algo.Test.csproj", "{0BEF6D23-B074-4F3F-B8E4-3F9E8FA86A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualTest", "src\ManualTest\ManualTest.csproj", "{D9AE1DBA-7639-4791-B1DB-49B922E02770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darwin", "Darwin\Darwin.csproj", "{3908725A-E809-4D9E-BB3C-BFB37119B2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarwinManualTest", "DarwinManualTest\DarwinManualTest.csproj", "{13AF8FC5-2545-420D-9DBC-EDB57D2074B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "src\Demo\Demo.csproj", "{00D6938D-6F8C-4C77-93BC-CEA7156BDF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "src\Benchmark\Benchmark.csproj", "{3ECA36F0-ECD1-4A47-8C7C-60BFB3936E49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EFD58D8-2217-4276-9D57-ECA1E34D7B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFD58D8-2217-4276-9D57-ECA1E34D7B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFD58D8-2217-4276-9D57-ECA1E34D7B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFD58D8-2217-4276-9D57-ECA1E34D7B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BEF6D23-B074-4F3F-B8E4-3F9E8FA86A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEF6D23-B074-4F3F-B8E4-3F9E8FA86A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEF6D23-B074-4F3F-B8E4-3F9E8FA86A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEF6D23-B074-4F3F-B8E4-3F9E8FA86A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AE1DBA-7639-4791-B1DB-49B922E02770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AE1DBA-7639-4791-B1DB-49B922E02770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AE1DBA-7639-4791-B1DB-49B922E02770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AE1DBA-7639-4791-B1DB-49B922E02770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3908725A-E809-4D9E-BB3C-BFB37119B2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3908725A-E809-4D9E-BB3C-BFB37119B2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3908725A-E809-4D9E-BB3C-BFB37119B2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3908725A-E809-4D9E-BB3C-BFB37119B2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AF8FC5-2545-420D-9DBC-EDB57D2074B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AF8FC5-2545-420D-9DBC-EDB57D2074B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AF8FC5-2545-420D-9DBC-EDB57D2074B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AF8FC5-2545-420D-9DBC-EDB57D2074B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D6938D-6F8C-4C77-93BC-CEA7156BDF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D6938D-6F8C-4C77-93BC-CEA7156BDF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D6938D-6F8C-4C77-93BC-CEA7156BDF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D6938D-6F8C-4C77-93BC-CEA7156BDF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECA36F0-ECD1-4A47-8C7C-60BFB3936E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECA36F0-ECD1-4A47-8C7C-60BFB3936E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECA36F0-ECD1-4A47-8C7C-60BFB3936E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECA36F0-ECD1-4A47-8C7C-60BFB3936E49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BEF6D23-B074-4F3F-B8E4-3F9E8FA86A03} = {00869399-31A6-4913-AF61-396DAC865E28}
+		{D9AE1DBA-7639-4791-B1DB-49B922E02770} = {00869399-31A6-4913-AF61-396DAC865E28}
+		{13AF8FC5-2545-420D-9DBC-EDB57D2074B6} = {00869399-31A6-4913-AF61-396DAC865E28}
+	EndGlobalSection
+EndGlobal

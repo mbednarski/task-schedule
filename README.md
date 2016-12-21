@@ -1,2 +1,4 @@
-# task-schedule
-Assignment for Combinatorial Optimization course
+task-schedule
+=============
+
+Zalciznie na przedmiot Optymalizacja Kombinatoryczna.
